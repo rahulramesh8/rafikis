@@ -6,7 +6,7 @@ const SiteLogo = () => {
   return (
     <div className="siteLogo">
       <img className="siteLogo__image" src={Logo} alt="Site logo" />
-      <div className="siteLogo__text">The $3 website</div>
+      <div className="siteLogo__text">Rafikis doing things</div>
     </div>
   );
 };
