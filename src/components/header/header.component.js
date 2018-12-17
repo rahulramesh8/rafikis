@@ -1,14 +1,12 @@
 import React from "react";
-import Menu from "../menu/menu.component";
 
-import "./header.styles.scss";
 import SiteLogo from "../site-logo/site-logo.component";
+import "./header.styles.scss";
 
 const Header = () => {
   return (
     <>
       <SiteLogo />
-      <Menu />
     </>
   );
 };

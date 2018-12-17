@@ -1,11 +1,16 @@
 import React from "react";
 
+import "./menu.styles.scss";
+
 const Menu = () => {
   return (
-    <ul>
-      <li>About</li>
-      <li>Join the fun!</li>
-    </ul>
+    <div className="menu">
+      <ul className="menu__list">
+        <li>About us</li>
+        <li>Contact us</li>
+        <li>Blah</li>
+      </ul>
+    </div>
   );
 };
 
