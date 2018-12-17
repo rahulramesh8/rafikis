@@ -10,8 +10,12 @@ const Footer = () => {
     <>
       New Count: {newCount}
       <button onClick={() => setNewCount(0)}>Reset</button>
-      <button onClick={() => setNewCount(prevNewCount => prevNewCount + 1)}>+</button>
-      <button onClick={() => setNewCount(prevNewCount => prevNewCount - 1)}>-</button>
+      <button onClick={() => setNewCount(prevNewCount => prevNewCount + 1)}>
+        +
+      </button>
+      <button onClick={() => setNewCount(prevNewCount => prevNewCount - 1)}>
+        -
+      </button>
     </>
   );
 };

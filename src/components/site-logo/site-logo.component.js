@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../../assets/logo.svg";
-// import "./site-logo.styles.scss";
+import "./site-logo.styles.scss";
 
 const SiteLogo = () => {
   return (
