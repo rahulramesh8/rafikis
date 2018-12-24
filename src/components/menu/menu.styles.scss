@@ -1,8 +1,10 @@
+@import "../../styles/rafiki-styles.scss";
+
 .menu__list {
-  min-width: 200px;
+  font-family: $font-family;
+  color: $white;
   list-style-type: none;
   text-decoration: none;
   display: flex;
   justify-content: space-between;
-  color: white;
 }

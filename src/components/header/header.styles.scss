@@ -1,0 +1,14 @@
+@import "../../styles/rafiki-styles.scss";
+
+.header-container {
+  display: flex;
+  background-color: $blue-dark;
+}
+
+.header-container__logo {
+  flex: 1;
+}
+
+.header-container__menu {
+  flex: 5;
+}

@@ -1,5 +1,7 @@
+@import "../../styles/rafiki-styles.scss";
+
 .siteLogo {
-  background-color: black;
+  background-color: $black-dark;
   display: flex;
   align-items: center;
   padding: 0.5rem;
