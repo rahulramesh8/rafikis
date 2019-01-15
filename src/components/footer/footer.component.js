@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Footer = () => {
-  return <>Hello I am footer</>;
+  const [color, setColor] = useState("blue");
+
+  return (
+    <div>
+      <input type="text" onChange={event => setColor(event.target.value)} />
+      <div>The input is {color}</div>
+    </div>
+  );
 };
 
 export default Footer;
